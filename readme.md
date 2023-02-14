@@ -2,7 +2,7 @@
 
 Open source Artix-7 FPGA designed to be used with [PCILeech](https://github.com/ufrisk/pcileech/).
 
-For schematic/layout/assembly/pcb diagrams, please see the (outputs)[outputs/] folder.
+For schematic/layout/assembly/pcb diagrams, please see the [outputs](outputs/) folder.
 
 ## Overview
 
