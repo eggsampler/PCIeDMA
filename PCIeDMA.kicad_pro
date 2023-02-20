@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -85,18 +85,18 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -116,9 +116,9 @@
         "max_error": 0.005,
         "min_clearance": 0.09,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.09999999999999999,
+        "min_hole_to_hole": 0.19999999999999998,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
@@ -127,8 +127,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -177,6 +177,8 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
+        0.4,
         0.5
       ],
       "via_dimensions": [
@@ -422,7 +424,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -440,13 +442,47 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.127,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1016,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "100ohm",
+        "name": "50ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.146812,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Clearance",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.09,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PCIE_100ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -463,7 +499,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "90ohm",
+        "name": "USB_90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -479,20 +515,84 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "100ohm",
+        "netclass": "USB_90ohm",
+        "pattern": ".*/D[PN+-]"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": ".*/DATA\\d+"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": ".*/PE[TR]\\d_[PN]"
+      },
+      {
+        "netclass": "PCIE_100ohm",
         "pattern": ".*/[TR]X\\d_[PN]"
       },
       {
-        "netclass": "100ohm",
-        "pattern": ".*/PE[RT]\\d_[PN]"
+        "netclass": "50ohm",
+        "pattern": ".*/BE\\d"
       },
       {
-        "netclass": "90ohm",
-        "pattern": ".*/D[MNP+-]"
+        "netclass": "USB_90ohm",
+        "pattern": ".*/[TR]X?\\d(?:_C_)?[+-NP]"
       },
       {
-        "netclass": "Default",
-        "pattern": ".*/[RT]X\\d[np]"
+        "netclass": "USB_90ohm",
+        "pattern": ".*/(?:RI|TO)D[PN]"
+      },
+      {
+        "netclass": "USB_90ohm",
+        "pattern": ".*/TOD_C_[PN]"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": ".*/D[0123]"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": ".*/CLK_[PN]"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": ".*/REFCLK[+-]"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": ".*FPGA.*/(?:OE|RD|WR|SIWU|RXF|TXE|CLK|RST|WAKEUP)"
+      },
+      {
+        "netclass": "Clearance",
+        "pattern": ".*/(?:TRST|TDI|TDO|TCK|TMS)"
+      },
+      {
+        "netclass": "Clearance",
+        "pattern": "[/+].*MGT.*"
+      },
+      {
+        "netclass": "Clearance",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "/FPGA/Bank 0/PROGRAM_B"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": ".*/CC[12].*"
+      },
+      {
+        "netclass": "Clearance",
+        "pattern": "[+].*"
+      },
+      {
+        "netclass": "Clearance",
+        "pattern": "/FPGA/OSC"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "/FPGA/Bank 0/DONE"
       }
     ]
   },

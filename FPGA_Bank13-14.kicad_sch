@@ -3032,7 +3032,7 @@
   (symbol (lib_id "Device:R_Small") (at 273.05 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06dfe26d-7bd8-46b7-bb26-5304562caa06)
-    (property "Reference" "R39" (at 274.32 27.94 0)
+    (property "Reference" "R37" (at 274.32 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 274.32 29.21 0)
@@ -3058,7 +3058,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "R39") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -3067,7 +3067,7 @@
   (symbol (lib_id "Device:C_Small") (at 138.43 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c7cb0c6-7bfc-4de5-ba05-fc3f846ce5f1)
-    (property "Reference" "C59" (at 140.97 26.67 0)
+    (property "Reference" "C58" (at 140.97 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 140.97 27.94 0)
@@ -3093,7 +3093,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C59") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -3102,7 +3102,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.83 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fa5dc08-e753-4e78-b730-d99404df55b0)
-    (property "Reference" "C61" (at 166.37 26.67 0)
+    (property "Reference" "C60" (at 166.37 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 166.37 27.94 0)
@@ -3128,7 +3128,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C61") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -3137,7 +3137,7 @@
   (symbol (lib_id "Device:C_Small") (at 151.13 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22c04818-6cf0-43a5-a115-33dc37937fa9)
-    (property "Reference" "C60" (at 153.67 26.67 0)
+    (property "Reference" "C59" (at 153.67 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 153.67 27.94 0)
@@ -3163,7 +3163,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C60") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -3172,7 +3172,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.93 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a995564-a14b-48d0-8f56-0f722324bbd7)
-    (property "Reference" "C64" (at 204.47 26.67 0)
+    (property "Reference" "C63" (at 204.47 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47u" (at 204.47 27.94 0)
@@ -3198,7 +3198,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C64") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -3207,7 +3207,7 @@
   (symbol (lib_id "PCIeDMA:+VCCO") (at 273.05 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 844a795b-7b7f-4044-9359-9fbcf924dad7)
-    (property "Reference" "#PWR081" (at 273.05 29.21 0)
+    (property "Reference" "#PWR080" (at 273.05 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VCCO" (at 273.05 20.32 0)
@@ -3223,7 +3223,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -3705,7 +3705,7 @@
   (symbol (lib_id "Device:C_Small") (at 176.53 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 986f1547-e1fc-40e1-b961-9b9089fc9fc4)
-    (property "Reference" "C62" (at 179.07 26.67 0)
+    (property "Reference" "C61" (at 179.07 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47u" (at 179.07 27.94 0)
@@ -3731,7 +3731,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C62") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -3740,7 +3740,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.23 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ade09115-578c-476b-a0f7-eace37123b7a)
-    (property "Reference" "C63" (at 191.77 26.67 0)
+    (property "Reference" "C62" (at 191.77 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47u" (at 191.77 27.94 0)
@@ -3766,7 +3766,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C63") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -3775,7 +3775,7 @@
   (symbol (lib_id "PCIeDMA:+VCCO") (at 119.38 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6045dea-f4ec-47af-835e-4c9fa4226eae)
-    (property "Reference" "#PWR079" (at 119.38 29.21 0)
+    (property "Reference" "#PWR078" (at 119.38 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VCCO" (at 119.38 20.32 0)
@@ -3791,7 +3791,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -3800,7 +3800,7 @@
   (symbol (lib_id "power:GND") (at 138.43 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4775a74-d1ea-4f1b-8c31-fba3cc7235b2)
-    (property "Reference" "#PWR080" (at 138.43 39.37 0)
+    (property "Reference" "#PWR079" (at 138.43 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 38.1 0)
@@ -3816,7 +3816,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -3825,7 +3825,7 @@
   (symbol (lib_id "Device:C_Small") (at 214.63 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eea58c34-0450-4d42-9999-9a1e8da8ff0e)
-    (property "Reference" "C65" (at 217.17 26.67 0)
+    (property "Reference" "C64" (at 217.17 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.47u" (at 217.17 27.94 0)
@@ -3851,7 +3851,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/ef7f5c88-c40f-4f06-af4b-db31cadb3dc7"
-          (reference "C65") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )

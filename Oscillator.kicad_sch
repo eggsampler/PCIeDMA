@@ -280,7 +280,7 @@
   (symbol (lib_id "power:GND") (at 139.7 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c307640-2040-4f0e-a7f5-4376b94fa61f)
-    (property "Reference" "#PWR099" (at 139.7 107.95 0)
+    (property "Reference" "#PWR098" (at 139.7 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 106.68 0)
@@ -296,7 +296,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/fb8eb311-0296-43ff-b679-9d680dd559f1"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -305,7 +305,7 @@
   (symbol (lib_id "Device:C_Small") (at 120.65 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90244da8-7af0-479f-8634-98564657069f)
-    (property "Reference" "C90" (at 118.11 81.28 0)
+    (property "Reference" "C89" (at 118.11 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 118.11 82.55 0)
@@ -331,7 +331,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/fb8eb311-0296-43ff-b679-9d680dd559f1"
-          (reference "C90") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -368,7 +368,7 @@
   (symbol (lib_id "PCIeDMA:+VCCO") (at 139.7 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd98cc9f-192d-4a8e-a39f-8d84c58ce927)
-    (property "Reference" "#PWR098" (at 139.7 80.01 0)
+    (property "Reference" "#PWR097" (at 139.7 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VCCO" (at 139.7 71.12 0)
@@ -384,7 +384,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/fb8eb311-0296-43ff-b679-9d680dd559f1"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
