@@ -6,7 +6,7 @@
 
   (title_block
     (title "PCIeDMA")
-    (date "2023-02-14")
+    (date "2024-01-01")
     (rev "1")
   )
 
@@ -2703,10 +2703,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 165.1 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dbf55d0-ab09-4019-a41b-9d3898a8f042)
-    (property "Reference" "SW3" (at 166.37 55.8799 90)
+    (property "Reference" "SW4" (at 166.37 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "PROGRAM" (at 166.37 58.4199 90)
+    (property "Value" "PROGRAM" (at 166.37 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P" (at 160.02 57.15 0)
@@ -2720,7 +2720,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/53f7ad83-0234-4eaa-80d2-7167faf33ffd"
-          (reference "SW3") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -3227,7 +3227,7 @@
   (symbol (lib_id "Device:LED_Small") (at 266.7 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48f27ea5-8c22-4c4c-b211-46d8c95a9125)
-    (property "Reference" "D5" (at 267.97 43.18 90)
+    (property "Reference" "D4" (at 267.97 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "INIT_B" (at 267.97 44.45 90)
@@ -3250,7 +3250,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/53f7ad83-0234-4eaa-80d2-7167faf33ffd"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3259,7 +3259,7 @@
   (symbol (lib_id "Device:LED_Small") (at 215.9 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55a207a2-6530-4f10-be97-76de5029fe76)
-    (property "Reference" "D4" (at 217.17 43.18 90)
+    (property "Reference" "D5" (at 217.17 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "DONE" (at 217.17 44.45 90)
@@ -3282,7 +3282,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/53f7ad83-0234-4eaa-80d2-7167faf33ffd"
-          (reference "D4") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3461,10 +3461,10 @@
   (symbol (lib_id "Switch:SW_Push") (at 254 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6233f57-d665-48af-a6a9-5ec5e80da3ba)
-    (property "Reference" "SW4" (at 255.27 55.8799 90)
+    (property "Reference" "SW3" (at 255.27 55.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "INIT_B" (at 255.27 58.4199 90)
+    (property "Value" "INIT_B" (at 255.27 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P" (at 248.92 57.15 0)
@@ -3478,7 +3478,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6/53f7ad83-0234-4eaa-80d2-7167faf33ffd"
-          (reference "SW4") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )

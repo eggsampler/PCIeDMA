@@ -1,0 +1,5 @@
+Default	False	2.0	3
+50ohm	False	2.0	3
+PCIE_100ohm	True	2.0	3
+USB_90ohm	False	2.0	3
+False	True	False

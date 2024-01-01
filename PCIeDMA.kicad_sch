@@ -6,7 +6,7 @@
 
   (title_block
     (title "PCIeDMA")
-    (date "2023-02-14")
+    (date "2024-01-01")
     (rev "1")
   )
 
@@ -52,6 +52,15 @@
     (stroke (width 0) (type default))
     (uuid 67c06e52-97f3-45ee-9caa-44239919cb01)
   )
+  (bus (pts (xy 127 113.03) (xy 177.8 113.03))
+    (stroke (width 0) (type default))
+    (uuid c8600e8e-4d03-4893-a6f9-4cad434543a7)
+  )
+
+  (wire (pts (xy 127 115.57) (xy 177.8 115.57))
+    (stroke (width 0) (type default))
+    (uuid ce380867-a2c7-460e-9800-7d3b6aff6ac0)
+  )
   (bus (pts (xy 50.8 152.4) (xy 100.33 152.4))
     (stroke (width 0) (type default))
     (uuid f9fd28a2-921b-469c-8e3f-b9172e9e3d7d)
@@ -78,7 +87,7 @@
     )
     (instances
       (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "18"))
+        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "19"))
       )
     )
   )
@@ -124,6 +133,14 @@
     (pin "PCIE{I2C}" bidirectional (at 100.33 40.64 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 936f8a02-31d4-4a63-86a6-e6648b8b4e3d)
+    )
+    (pin "{DDR2}" bidirectional (at 127 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c01a6f4b-114c-461c-9e97-356896f9f377)
+    )
+    (pin "DDR2_OSC" input (at 127 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid feada897-d8ab-4436-9079-07c1aeee6397)
     )
     (instances
       (project "PCIeDMA"
@@ -190,7 +207,7 @@
     )
     (instances
       (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "19"))
+        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "20"))
       )
     )
   )
@@ -216,14 +233,14 @@
     )
   )
 
-  (sheet (at 177.8 25.4) (size 25.4 26.67) (fields_autoplaced)
+  (sheet (at 177.8 25.4) (size 25.4 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 9b75b021-6296-4193-9853-b9961650faa3)
     (property "Sheetname" "Flash" (at 177.8 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Flash.kicad_sch" (at 177.8 52.6546 0)
+    (property "Sheetfile" "Flash.kicad_sch" (at 177.8 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "{QSPI}" bidirectional (at 177.8 38.1 180)
@@ -233,6 +250,31 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "16"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 101.6) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid acbbdb0c-3c25-42a0-874f-784ce747f7e7)
+    (property "Sheetname" "Memory" (at 177.8 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Memory.kicad_sch" (at 177.8 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "DDR2_OSC" output (at 177.8 115.57 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0c89d955-33fa-4c31-9e4f-251d5d604168)
+    )
+    (pin "{DDR2}" bidirectional (at 177.8 113.03 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ca274d52-8c82-4c38-ba85-081571e41476)
+    )
+    (instances
+      (project "PCIeDMA"
+        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea" (page "18"))
       )
     )
   )

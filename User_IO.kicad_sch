@@ -6,7 +6,7 @@
 
   (title_block
     (title "PCIeDMA")
-    (date "2023-02-14")
+    (date "2024-01-01")
     (rev "1")
   )
 
@@ -456,7 +456,7 @@
   (symbol (lib_id "Device:LED_Small") (at 127 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36b91c62-7ab6-4e97-a258-35965558615c)
-    (property "Reference" "D2" (at 128.27 92.71 90)
+    (property "Reference" "D3" (at 128.27 92.71 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USER1" (at 128.27 93.98 90)
@@ -479,7 +479,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/21232c02-71cb-435e-97ae-df589121e8b4"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -488,7 +488,7 @@
   (symbol (lib_id "Device:LED_Small") (at 152.4 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c51b154-6106-4f98-a511-b0096049a81c)
-    (property "Reference" "D3" (at 153.67 92.71 90)
+    (property "Reference" "D2" (at 153.67 92.71 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USER2" (at 153.67 93.98 90)
@@ -511,7 +511,7 @@
     (instances
       (project "PCIeDMA"
         (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/21232c02-71cb-435e-97ae-df589121e8b4"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )

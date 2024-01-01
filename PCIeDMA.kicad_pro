@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -114,7 +114,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.09999999999999999,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.09999999999999999,
@@ -123,11 +123,11 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.6,
+        "min_text_thickness": 0.09999999999999999,
         "min_through_hole_diameter": 0.19999999999999998,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.125,
+        "min_track_width": 0.09999999999999999,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -176,6 +176,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.3,
         0.4,
@@ -187,7 +188,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.4,
           "drill": 0.2
         }
       ],
@@ -405,7 +406,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -424,86 +425,69 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.0,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.0,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "50ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.146812,
-        "via_diameter": 0.45,
+        "track_width": 0.1196,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Clearance",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.09,
+        "diff_pair_width": 0.1,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "PCIE_100ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
+        "track_width": 0.0,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.131318,
+        "diff_pair_width": 0.1156,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "USB_90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.45,
+        "track_width": 0.0,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -515,84 +499,72 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB_90ohm",
-        "pattern": ".*/D[PN+-]"
-      },
-      {
         "netclass": "50ohm",
-        "pattern": ".*/DATA\\d+"
-      },
-      {
-        "netclass": "PCIE_100ohm",
-        "pattern": ".*/PE[TR]\\d_[PN]"
-      },
-      {
-        "netclass": "PCIE_100ohm",
-        "pattern": ".*/[TR]X\\d_[PN]"
-      },
-      {
-        "netclass": "50ohm",
-        "pattern": ".*/BE\\d"
+        "pattern": "/FPGA/DATA*"
       },
       {
         "netclass": "USB_90ohm",
-        "pattern": ".*/[TR]X?\\d(?:_C_)?[+-NP]"
+        "pattern": "/USB Data/Type C Mux/TX*"
       },
       {
         "netclass": "USB_90ohm",
-        "pattern": ".*/(?:RI|TO)D[PN]"
+        "pattern": "/USB Data/Type C Mux/RX*"
       },
       {
         "netclass": "USB_90ohm",
-        "pattern": ".*/TOD_C_[PN]"
+        "pattern": "/USB Data/FT601/*DN"
       },
       {
-        "netclass": "50ohm",
-        "pattern": ".*/D[0123]"
+        "netclass": "USB_90ohm",
+        "pattern": "/USB Data/FT601/*DP"
+      },
+      {
+        "netclass": "USB_90ohm",
+        "pattern": "/USB Data/Type C Mux/TOD*"
       },
       {
         "netclass": "PCIE_100ohm",
-        "pattern": ".*/CLK_[PN]"
+        "pattern": "/FPGA/[RT]X[\\d].*"
       },
       {
         "netclass": "PCIE_100ohm",
-        "pattern": ".*/REFCLK[+-]"
+        "pattern": "/PCIe 4x/*PE*"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": "/FPGA/CLK_[PN]"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": "/PCIe 4x/REF*"
       },
       {
         "netclass": "50ohm",
-        "pattern": ".*FPGA.*/(?:OE|RD|WR|SIWU|RXF|TXE|CLK|RST|WAKEUP)"
-      },
-      {
-        "netclass": "Clearance",
-        "pattern": ".*/(?:TRST|TDI|TDO|TCK|TMS)"
-      },
-      {
-        "netclass": "Clearance",
-        "pattern": "[/+].*MGT.*"
-      },
-      {
-        "netclass": "Clearance",
-        "pattern": "GND"
+        "pattern": "/FPGA/T[^X]."
       },
       {
         "netclass": "50ohm",
-        "pattern": "/FPGA/Bank 0/PROGRAM_B"
+        "pattern": "/FPGA/(CAS|RAS|WE|DDR2.CS|CKE|DM|ODT)"
       },
       {
         "netclass": "50ohm",
-        "pattern": ".*/CC[12].*"
-      },
-      {
-        "netclass": "Clearance",
-        "pattern": "[+].*"
-      },
-      {
-        "netclass": "Clearance",
-        "pattern": "/FPGA/OSC"
+        "pattern": "/FPGA/DQ\\d"
       },
       {
         "netclass": "50ohm",
-        "pattern": "/FPGA/Bank 0/DONE"
+        "pattern": "/FPGA/BA\\d"
+      },
+      {
+        "netclass": "50ohm",
+        "pattern": "/FPGA/ADDR\\d+"
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": "/FPGA/DQS_."
+      },
+      {
+        "netclass": "PCIE_100ohm",
+        "pattern": "/FPGA/CK_."
       }
     ]
   },
@@ -631,6 +603,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "SheetTemplate.kicad_wks",
     "plot_directory": "outputs/",
     "spice_adjust_passive_values": false,
@@ -710,6 +691,10 @@
     [
       "fb8eb311-0296-43ff-b679-9d680dd559f1",
       "Oscillator"
+    ],
+    [
+      "acbbdb0c-3c25-42a0-874f-784ce747f7e7",
+      "Memory"
     ],
     [
       "11b53c35-cc79-4ae5-8f22-77aa75b8682b",

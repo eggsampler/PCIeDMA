@@ -6,7 +6,7 @@
 
   (title_block
     (title "PCIeDMA")
-    (date "2023-02-14")
+    (date "2024-01-01")
     (rev "1")
   )
 
@@ -2256,10 +2256,10 @@
     (pin "14" (uuid 66a5e33f-52a9-407d-983b-a6c8de468824))
     (pin "15" (uuid af5749cb-da2e-4894-a8eb-1f3859b4ecab))
     (pin "16" (uuid 5f34a149-f21f-42f9-a1f9-830ce8853eb0))
-    (pin "17" (uuid 91c039a1-3fe8-46b8-9e93-9369068fa4a8))
-    (pin "17" (uuid 91c039a1-3fe8-46b8-9e93-9369068fa4a8))
-    (pin "18" (uuid 3ff9e934-27f0-4943-a769-ac420ddd5aae))
-    (pin "18" (uuid 3ff9e934-27f0-4943-a769-ac420ddd5aae))
+    (pin "17" (uuid 91c039a1-3fe8-46b8-9e93-9369068fa4b1))
+    (pin "17" (uuid 91c039a1-3fe8-46b8-9e93-9369068fa4b2))
+    (pin "18" (uuid 3ff9e934-27f0-4943-a769-ac420ddd5ab7))
+    (pin "18" (uuid 3ff9e934-27f0-4943-a769-ac420ddd5ab8))
     (pin "19" (uuid 5316fe01-4487-45ff-b596-f0e13413319c))
     (pin "2" (uuid 558a5348-6afa-4a3e-bce9-bcdc69afc64c))
     (pin "20" (uuid 376f1b72-68b9-4b67-ae01-6c7730a02e4b))
