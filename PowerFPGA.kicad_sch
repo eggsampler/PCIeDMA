@@ -8,6 +8,7 @@
     (title "PCIeDMA")
     (date "2024-01-01")
     (rev "1")
+    (company "github.com/eggsampler")
   )
 
   (lib_symbols

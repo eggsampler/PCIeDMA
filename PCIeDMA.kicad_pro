@@ -575,7 +575,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "outputs/PCIeDMA.step",
-      "vrml": ""
+      "vrml": "outputs/PCIeDMA.wrl"
     },
     "page_layout_descr_file": "SheetTemplate.kicad_wks"
   },
