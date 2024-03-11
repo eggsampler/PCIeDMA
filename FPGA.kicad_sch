@@ -1,324 +1,764 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6f13fa2a-aa60-4885-bc07-14bb9097f1ef)
-
-  (paper "A4")
-
-  (title_block
-    (title "PCIeDMA")
-    (date "2024-01-01")
-    (rev "1")
-    (company "github.com/eggsampler")
-  )
-
-  (lib_symbols
-  )
-
-  (junction (at 76.2 123.19) (diameter 0) (color 0 0 0 0)
-    (uuid 3ec66a77-5e20-4a87-95f3-70aee17ec45f)
-  )
-  (junction (at 76.2 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 460f78cc-0f8b-4711-8b9a-e9b693acc557)
-  )
-  (junction (at 76.2 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid a4793487-51f8-49e9-8b6f-a75dceb4bc61)
-  )
-
-  (bus (pts (xy 76.2 118.11) (xy 88.9 118.11))
-    (stroke (width 0) (type default))
-    (uuid 07a9bda1-0352-4cbe-ad3d-cd66c094c04e)
-  )
-  (bus (pts (xy 62.23 146.05) (xy 88.9 146.05))
-    (stroke (width 0) (type default))
-    (uuid 224f1f84-c987-4669-bd5d-2af2e47f9aef)
-  )
-  (bus (pts (xy 76.2 66.04) (xy 76.2 44.45))
-    (stroke (width 0) (type default))
-    (uuid 383c391e-ed03-4ef9-8379-f229d17960b3)
-  )
-  (bus (pts (xy 63.5 123.19) (xy 76.2 123.19))
-    (stroke (width 0) (type default))
-    (uuid 3ca0f3e8-6e2b-4116-938c-c5e97c89a55d)
-  )
-  (bus (pts (xy 62.23 148.59) (xy 88.9 148.59))
-    (stroke (width 0) (type default))
-    (uuid 4db13b7e-1f9b-49c5-be8a-f724abdad7bb)
-  )
-  (bus (pts (xy 76.2 143.51) (xy 76.2 123.19))
-    (stroke (width 0) (type default))
-    (uuid 55bd0c59-63cc-4211-bb3c-23ffc3e5b597)
-  )
-  (bus (pts (xy 63.5 97.79) (xy 76.2 97.79))
-    (stroke (width 0) (type default))
-    (uuid 56a1bd02-e74e-4c5a-8858-e9a0007a1604)
-  )
-  (bus (pts (xy 88.9 143.51) (xy 76.2 143.51))
-    (stroke (width 0) (type default))
-    (uuid 8f150a39-5791-4527-9585-f85fb577b5ce)
-  )
-  (bus (pts (xy 63.5 44.45) (xy 76.2 44.45))
-    (stroke (width 0) (type default))
-    (uuid 8f6765ab-d8f2-4990-8493-d3b99d95fda4)
-  )
-  (bus (pts (xy 63.5 68.58) (xy 88.9 68.58))
-    (stroke (width 0) (type default))
-    (uuid 9af0f0ee-e4b5-49e6-83ea-a20f753ba86f)
-  )
-  (bus (pts (xy 88.9 66.04) (xy 76.2 66.04))
-    (stroke (width 0) (type default))
-    (uuid a71d645c-e880-4f67-981c-78de6d4147eb)
-  )
-  (bus (pts (xy 76.2 118.11) (xy 76.2 97.79))
-    (stroke (width 0) (type default))
-    (uuid af86cec3-7743-4a3f-9cd2-28b446150c1e)
-  )
-
-  (wire (pts (xy 63.5 71.12) (xy 88.9 71.12))
-    (stroke (width 0) (type default))
-    (uuid c2e4d006-a21a-4808-abfc-be362015e628)
-  )
-  (wire (pts (xy 114.3 147.32) (xy 139.7 147.32))
-    (stroke (width 0) (type default))
-    (uuid c62e31a9-a63e-44a3-9ebd-d5f4c8902c5b)
-  )
-  (bus (pts (xy 76.2 123.19) (xy 88.9 123.19))
-    (stroke (width 0) (type default))
-    (uuid c89493a5-546b-4c57-9426-2995573f7536)
-  )
-  (bus (pts (xy 63.5 92.71) (xy 88.9 92.71))
-    (stroke (width 0) (type default))
-    (uuid d1f6ff03-5f03-46f1-97fd-dcfc1a6b9d85)
-  )
-  (bus (pts (xy 76.2 97.79) (xy 88.9 97.79))
-    (stroke (width 0) (type default))
-    (uuid d247bae5-f35d-4ef3-ac59-817360d7e5f1)
-  )
-  (bus (pts (xy 63.5 76.2) (xy 88.9 76.2))
-    (stroke (width 0) (type default))
-    (uuid e9a1110a-b584-4c18-8ce3-1459cc4e5136)
-  )
-  (bus (pts (xy 76.2 44.45) (xy 88.9 44.45))
-    (stroke (width 0) (type default))
-    (uuid e9a60b60-465e-45ba-b271-9623ff10a2a2)
-  )
-
-  (wire (pts (xy 63.5 73.66) (xy 88.9 73.66))
-    (stroke (width 0) (type default))
-    (uuid f1a29235-d527-42d1-9af6-82c82e205199)
-  )
-  (bus (pts (xy 114.3 144.78) (xy 139.7 144.78))
-    (stroke (width 0) (type default))
-    (uuid fa3d9da0-2ea3-4ff7-81cf-97663b46b072)
-  )
-
-  (hierarchical_label "DDR2_OSC" (shape input) (at 139.7 147.32 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 16be8b29-46ff-4a1a-8a87-05fabffca6a0)
-  )
-  (hierarchical_label "{SERIAL}" (shape bidirectional) (at 63.5 76.2 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 232c37c7-baa4-456a-bd70-849673c64300)
-  )
-  (hierarchical_label "{JTAG}" (shape bidirectional) (at 63.5 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 27e1ce58-9631-41d2-9fb7-efb3a88ec1f2)
-  )
-  (hierarchical_label "RST" (shape input) (at 63.5 71.12 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2ea91b65-714c-46b1-867d-afe349ff7400)
-  )
-  (hierarchical_label "{PCIE}" (shape bidirectional) (at 63.5 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 371d5ee3-679b-4454-bc38-c8f4b80c4ca1)
-  )
-  (hierarchical_label "PCIE{I2C}" (shape bidirectional) (at 63.5 68.58 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 481b5db4-d929-4728-a8d8-66b2d9f7cded)
-  )
-  (hierarchical_label "{VERSION}" (shape bidirectional) (at 62.23 146.05 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4babe5dd-4b62-4d9d-92ce-de93dca9e75d)
-  )
-  (hierarchical_label "{QSPI}" (shape bidirectional) (at 63.5 97.79 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6b01ef85-ca09-4d89-a17d-71c746d6b25d)
-  )
-  (hierarchical_label "{FT601}" (shape bidirectional) (at 63.5 123.19 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 73bbfece-0783-44bb-ad0d-7d471f38f09c)
-  )
-  (hierarchical_label "{DDR2}" (shape bidirectional) (at 139.7 144.78 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 99b8de2f-a6c7-49e9-ba12-a040d3e886ff)
-  )
-  (hierarchical_label "{USER_IO}" (shape bidirectional) (at 62.23 148.59 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a47b6ecd-8bb9-45e5-974a-916885dd65dc)
-  )
-  (hierarchical_label "OSC" (shape input) (at 63.5 73.66 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid c2ef7c25-e9e5-4340-b172-448e67aa4d1e)
-  )
-
-  (sheet (at 88.9 139.7) (size 25.4 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3132f396-d655-456d-bbc5-9738228cfd9e)
-    (property "Sheetname" "Bank 34-35" (at 88.9 138.9884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_Bank34-35.kicad_sch" (at 88.9 152.9846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{USER_IO}" bidirectional (at 88.9 148.59 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 782c2242-3a25-4212-a904-3b67ff55939e)
-    )
-    (pin "{FT601}" bidirectional (at 88.9 143.51 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 434eb3ff-e830-4e1d-abad-479edd0fef66)
-    )
-    (pin "{DDR2}" bidirectional (at 114.3 144.78 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 851a034f-05d4-42fc-955e-561e63c06dc1)
-    )
-    (pin "DDR2_OSC" input (at 114.3 147.32 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1dcaa369-1e9f-471d-8a47-deb1468df8d1)
-    )
-    (pin "{VERSION}" bidirectional (at 88.9 146.05 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e97d7d41-7077-4c0d-96c6-f887e78cb981)
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 63.5) (size 25.4 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4c577754-7766-4e54-90eb-b4735aa7ae9d)
-    (property "Sheetname" "Bank 15-16" (at 88.9 62.7884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_Bank15-16.kicad_sch" (at 88.9 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{PCIE}" bidirectional (at 88.9 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid be36cdfc-812e-4e05-9c78-bf4e343ac55d)
-    )
-    (pin "RST_N" bidirectional (at 88.9 71.12 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e4d082b7-cf7a-4040-8b36-d6c9bf97323d)
-    )
-    (pin "PCIE{I2C}" bidirectional (at 88.9 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6bcc9f1a-e6c0-4f87-9b86-69b07fa1164b)
-    )
-    (pin "OSC" input (at 88.9 73.66 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid fa061a37-600c-4b6a-8f91-b0c1ac8ab8c8)
-    )
-    (pin "{SERIAL}" bidirectional (at 88.9 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1925b9a8-205d-4773-969a-c7a1756f8d48)
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 88.9) (size 25.4 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 53f7ad83-0234-4eaa-80d2-7167faf33ffd)
-    (property "Sheetname" "Bank 0" (at 88.9 88.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_Bank0.kicad_sch" (at 88.9 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{JTAG}" bidirectional (at 88.9 92.71 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 55dc748c-ba49-4d67-992b-7c214e4ab62f)
-    )
-    (pin "{QSPI}" bidirectional (at 88.9 97.79 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid da3f10ef-8978-46d4-810e-aef62c967b9e)
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 215.9 38.1) (size 25.4 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 88784417-4b6b-4834-822d-629ae8bdc9c6)
-    (property "Sheetname" "Bank VCC" (at 215.9 37.3884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_BankVCC.kicad_sch" (at 215.9 64.0846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "15"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 38.1) (size 25.4 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a0d124b3-4257-4599-ab20-696eea4083f7)
-    (property "Sheetname" "GTP" (at 88.9 37.3884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_GTP.kicad_sch" (at 88.9 51.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{PCIE}" bidirectional (at 88.9 44.45 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b78ccb99-6932-41d7-92e4-ad6aa0aa83e4)
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 114.3) (size 25.4 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ef7f5c88-c40f-4f06-af4b-db31cadb3dc7)
-    (property "Sheetname" "Bank 13-14" (at 88.9 113.5884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FPGA_Bank13-14.kicad_sch" (at 88.9 127.5846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{FT601}" bidirectional (at 88.9 123.19 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cb6ad56c-a7c3-44b1-9e13-be3828dc0677)
-    )
-    (pin "{QSPI}" bidirectional (at 88.9 118.11 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b1094d79-d85d-4b75-b42f-aa2dcf72b602)
-    )
-    (instances
-      (project "PCIeDMA"
-        (path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6" (page "13"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6f13fa2a-aa60-4885-bc07-14bb9097f1ef")
+	(paper "A4")
+	(title_block
+		(title "PCIeDMA")
+		(date "2024-01-01")
+		(rev "1")
+		(company "github.com/eggsampler")
+	)
+	(lib_symbols)
+	(junction
+		(at 76.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ec66a77-5e20-4a87-95f3-70aee17ec45f")
+	)
+	(junction
+		(at 76.2 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "460f78cc-0f8b-4711-8b9a-e9b693acc557")
+	)
+	(junction
+		(at 76.2 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4793487-51f8-49e9-8b6f-a75dceb4bc61")
+	)
+	(bus
+		(pts
+			(xy 76.2 118.11) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a9bda1-0352-4cbe-ad3d-cd66c094c04e")
+	)
+	(bus
+		(pts
+			(xy 62.23 146.05) (xy 88.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224f1f84-c987-4669-bd5d-2af2e47f9aef")
+	)
+	(bus
+		(pts
+			(xy 76.2 66.04) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383c391e-ed03-4ef9-8379-f229d17960b3")
+	)
+	(bus
+		(pts
+			(xy 63.5 123.19) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca0f3e8-6e2b-4116-938c-c5e97c89a55d")
+	)
+	(bus
+		(pts
+			(xy 62.23 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db13b7e-1f9b-49c5-be8a-f724abdad7bb")
+	)
+	(bus
+		(pts
+			(xy 76.2 143.51) (xy 76.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bd0c59-63cc-4211-bb3c-23ffc3e5b597")
+	)
+	(bus
+		(pts
+			(xy 63.5 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a1bd02-e74e-4c5a-8858-e9a0007a1604")
+	)
+	(bus
+		(pts
+			(xy 88.9 143.51) (xy 76.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f150a39-5791-4527-9585-f85fb577b5ce")
+	)
+	(bus
+		(pts
+			(xy 63.5 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6765ab-d8f2-4990-8493-d3b99d95fda4")
+	)
+	(bus
+		(pts
+			(xy 63.5 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af0f0ee-e4b5-49e6-83ea-a20f753ba86f")
+	)
+	(bus
+		(pts
+			(xy 88.9 66.04) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71d645c-e880-4f67-981c-78de6d4147eb")
+	)
+	(bus
+		(pts
+			(xy 76.2 118.11) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af86cec3-7743-4a3f-9cd2-28b446150c1e")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e4d006-a21a-4808-abfc-be362015e628")
+	)
+	(wire
+		(pts
+			(xy 114.3 147.32) (xy 139.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62e31a9-a63e-44a3-9ebd-d5f4c8902c5b")
+	)
+	(bus
+		(pts
+			(xy 76.2 123.19) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89493a5-546b-4c57-9426-2995573f7536")
+	)
+	(bus
+		(pts
+			(xy 63.5 92.71) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f6ff03-5f03-46f1-97fd-dcfc1a6b9d85")
+	)
+	(bus
+		(pts
+			(xy 76.2 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d247bae5-f35d-4ef3-ac59-817360d7e5f1")
+	)
+	(bus
+		(pts
+			(xy 63.5 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a1110a-b584-4c18-8ce3-1459cc4e5136")
+	)
+	(bus
+		(pts
+			(xy 76.2 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a60b60-465e-45ba-b271-9623ff10a2a2")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a29235-d527-42d1-9af6-82c82e205199")
+	)
+	(bus
+		(pts
+			(xy 114.3 144.78) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3d9da0-2ea3-4ff7-81cf-97663b46b072")
+	)
+	(hierarchical_label "DDR2_OSC"
+		(shape input)
+		(at 139.7 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16be8b29-46ff-4a1a-8a87-05fabffca6a0")
+	)
+	(hierarchical_label "{SERIAL}"
+		(shape bidirectional)
+		(at 63.5 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "232c37c7-baa4-456a-bd70-849673c64300")
+	)
+	(hierarchical_label "{JTAG}"
+		(shape bidirectional)
+		(at 63.5 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27e1ce58-9631-41d2-9fb7-efb3a88ec1f2")
+	)
+	(hierarchical_label "RST"
+		(shape input)
+		(at 63.5 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ea91b65-714c-46b1-867d-afe349ff7400")
+	)
+	(hierarchical_label "{PCIE}"
+		(shape bidirectional)
+		(at 63.5 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "371d5ee3-679b-4454-bc38-c8f4b80c4ca1")
+	)
+	(hierarchical_label "PCIE{I2C}"
+		(shape bidirectional)
+		(at 63.5 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "481b5db4-d929-4728-a8d8-66b2d9f7cded")
+	)
+	(hierarchical_label "{VERSION}"
+		(shape bidirectional)
+		(at 62.23 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4babe5dd-4b62-4d9d-92ce-de93dca9e75d")
+	)
+	(hierarchical_label "{QSPI}"
+		(shape bidirectional)
+		(at 63.5 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b01ef85-ca09-4d89-a17d-71c746d6b25d")
+	)
+	(hierarchical_label "{FT601}"
+		(shape bidirectional)
+		(at 63.5 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73bbfece-0783-44bb-ad0d-7d471f38f09c")
+	)
+	(hierarchical_label "{DDR2}"
+		(shape bidirectional)
+		(at 139.7 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99b8de2f-a6c7-49e9-ba12-a040d3e886ff")
+	)
+	(hierarchical_label "{USER_IO}"
+		(shape bidirectional)
+		(at 62.23 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a47b6ecd-8bb9-45e5-974a-916885dd65dc")
+	)
+	(hierarchical_label "OSC"
+		(shape input)
+		(at 63.5 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2ef7c25-e9e5-4340-b172-448e67aa4d1e")
+	)
+	(sheet
+		(at 88.9 139.7)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3132f396-d655-456d-bbc5-9738228cfd9e")
+		(property "Sheetname" "Bank 34-35"
+			(at 88.9 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Bank34-35.kicad_sch"
+			(at 88.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USER_IO}" bidirectional
+			(at 88.9 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "782c2242-3a25-4212-a904-3b67ff55939e")
+		)
+		(pin "{FT601}" bidirectional
+			(at 88.9 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "434eb3ff-e830-4e1d-abad-479edd0fef66")
+		)
+		(pin "{DDR2}" bidirectional
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "851a034f-05d4-42fc-955e-561e63c06dc1")
+		)
+		(pin "DDR2_OSC" input
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dcaa369-1e9f-471d-8a47-deb1468df8d1")
+		)
+		(pin "{VERSION}" bidirectional
+			(at 88.9 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e97d7d41-7077-4c0d-96c6-f887e78cb981")
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c577754-7766-4e54-90eb-b4735aa7ae9d")
+		(property "Sheetname" "Bank 15-16"
+			(at 88.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Bank15-16.kicad_sch"
+			(at 88.9 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 88.9 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be36cdfc-812e-4e05-9c78-bf4e343ac55d")
+		)
+		(pin "RST_N" bidirectional
+			(at 88.9 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4d082b7-cf7a-4040-8b36-d6c9bf97323d")
+		)
+		(pin "PCIE{I2C}" bidirectional
+			(at 88.9 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bcc9f1a-e6c0-4f87-9b86-69b07fa1164b")
+		)
+		(pin "OSC" input
+			(at 88.9 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa061a37-600c-4b6a-8f91-b0c1ac8ab8c8")
+		)
+		(pin "{SERIAL}" bidirectional
+			(at 88.9 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1925b9a8-205d-4773-969a-c7a1756f8d48")
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53f7ad83-0234-4eaa-80d2-7167faf33ffd")
+		(property "Sheetname" "Bank 0"
+			(at 88.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Bank0.kicad_sch"
+			(at 88.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 88.9 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55dc748c-ba49-4d67-992b-7c214e4ab62f")
+		)
+		(pin "{QSPI}" bidirectional
+			(at 88.9 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da3f10ef-8978-46d4-810e-aef62c967b9e")
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 38.1)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88784417-4b6b-4834-822d-629ae8bdc9c6")
+		(property "Sheetname" "Bank VCC"
+			(at 215.9 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_BankVCC.kicad_sch"
+			(at 215.9 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0d124b3-4257-4599-ab20-696eea4083f7")
+		(property "Sheetname" "GTP"
+			(at 88.9 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_GTP.kicad_sch"
+			(at 88.9 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PCIE}" bidirectional
+			(at 88.9 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b78ccb99-6932-41d7-92e4-ad6aa0aa83e4")
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef7f5c88-c40f-4f06-af4b-db31cadb3dc7")
+		(property "Sheetname" "Bank 13-14"
+			(at 88.9 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Bank13-14.kicad_sch"
+			(at 88.9 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{FT601}" bidirectional
+			(at 88.9 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb6ad56c-a7c3-44b1-9e13-be3828dc0677")
+		)
+		(pin "{QSPI}" bidirectional
+			(at 88.9 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1094d79-d85d-4b75-b42f-aa2dcf72b602")
+		)
+		(instances
+			(project "PCIeDMA"
+				(path "/e81b7940-99a9-4b7f-b36e-83163c2a41ea/1bd24438-f300-4e1e-b3e2-e79b521bfee6"
+					(page "13")
+				)
+			)
+		)
+	)
 )
